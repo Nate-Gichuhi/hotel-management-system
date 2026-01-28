@@ -1,0 +1,7 @@
+The User Management module is responsible for handling all user-related operations within the Hotel Booking System. It ensures secure authentication, authorization and role-based access control for different types of users such as administrators, hotel staff and guests. This module allows administrators to create, update, view and deactivate user accounts while ensuring that each user only has access to features permitted by their assigned role. Proper user management improves system security, accountability and smooth operation of booking and administrative processes.
+User Registration. Design user registration form, Validate input data (email, password, phone), Store user details securely, Assign default role (Guest)
+User Authentication. Implement login functionality, Implement logout functionality, Session or token-based authentication, Handle invalid login attempts
+Role-Based Access Control. Define permissions for Admin, Staff, and Guest Restrict access to pages and APIs based on role Prevent unauthorized actions
+User Profile. Management View user profile, Update personal information, Change password, Upload profile photo (optional)
+Admin User. Management View all user, Create new users (Admin/Staff), Edit user details, Activate/deactivate user accounts, Reset user passwords
+Security Measures. Password hashing, Input validation and sanitization, Session timeout handling, Account lock after multiple failed logins
